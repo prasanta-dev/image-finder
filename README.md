@@ -19,7 +19,7 @@ It allows users to search and explore high-quality images using an external API.
 ## 📸 Preview
 
 ### 🏠 Home Screen
-![Home](./public/images/Screenshot1.png)
+![Home](./public/images/Screensort1.png)
 
 ### 🔍 Search Results
 ![Results](./public/images/screenshot2.png)

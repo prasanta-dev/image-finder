@@ -1,16 +1,89 @@
-# React + Vite
+# 🔍 ImageFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ImageFinder** is a modern image search web application built with **React + Redux Toolkit**.
+It allows users to search and explore high-quality images using an external API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search images instantly
+* 🏠 Beautiful Hero/Home section
+* ⚡ Fast state management with Redux Toolkit
+* ⏳ Loading state handling
+* ❌ Error handling for failed API requests
+* 📱 Responsive design (mobile + desktop)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+## 📸 Preview
 
-## Expanding the ESLint configuration
+### 🏠 Home Screen
+![Home](./public/images/screenshot_1.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔍 Search Results
+![Results](./public/images/screenshot_2.png)
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Redux Toolkit
+* JavaScript (ES6+)
+* Tailwind CSS
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+ ├── components/
+ ├── features/
+ ├── api/
+ ├── redux/
+ ├── assets/
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+---
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/prasanta-dev/image-finder.git
+cd image-finder
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 API Used
+
+* Unsplash API
+
+---
+
+## 📌 Future Improvements
+
+* Infinite scrolling
+* Skeleton loading UI
+* Debounced search
+* Save favorite images
+
+---
+
+## 👨‍💻 Author
+
+**Prasanta Debnath**
